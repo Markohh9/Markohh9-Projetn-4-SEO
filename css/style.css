@@ -48,6 +48,10 @@ a:hover {
     padding: 100px 50px;
 }
 
+.form-group {
+    margin-top: 10px;
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -55,6 +59,7 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+
 
 .bg-center,
 .bg-l-edge,
@@ -525,6 +530,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    font-family: "helvetica";
+    font-size: 16px;
 }
 
 .scrollToTop {
@@ -537,6 +544,8 @@ button {
     z-index: 500;
     transition: all .3s ease-in-out;
 }
+
+
 
 .scrollToTop span {
     margin-top: 6px;
@@ -803,12 +812,15 @@ h4 {
 .btn-atomic-tangerine {
     background: #FF8C00;
     color: #FFFFFF!important;
+    border-radius: 25px;
 }
+
 
 .btn-atomic-tangerine:hover {
     background: #FFA500!important;
     transition: all 1s;
     color: #FFFFFF!important;
+    cursor: pointer;
 }
 
 .ltc-white {
@@ -1049,6 +1061,35 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+
+.formulaire-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-propos p {
+font-size: 16px;
+display: flex;
+justify-content: center;
+}
+
+.h2-propos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    }
+
+.p-space {
+    margin-top: 14px;
 }
 
 @media (max-width: 400px) {
