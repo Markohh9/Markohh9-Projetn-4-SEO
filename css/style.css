@@ -308,7 +308,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    height: 80px;
 }
 
 .nav-center .navbar-brand img {
@@ -963,7 +963,7 @@ h4 {
         box-shadow: none;
     }
     .navbar-brand img {
-        max-height: 40px;
+        height: 80px;
         width: auto;
     }
     .nav-invert .navbar-header {
