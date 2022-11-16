@@ -1191,3 +1191,10 @@ margin-left: 44px;
         text-align: center;
     }
 }
+
+@media (max-width: 767px) {
+    .bloc-4-img a {
+        display: flex;
+        justify-content: center;
+    }
+}
