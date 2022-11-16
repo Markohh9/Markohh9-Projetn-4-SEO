@@ -324,6 +324,7 @@ a:hover {
     padding-top: 2px;
     float: right;
     z-index: 1;
+    margin-top: -20px;
 }
 
 .nav > li {
@@ -372,6 +373,7 @@ a:hover {
 
 .menu-li {
     text-decoration: none;
+    font-weight: 600;
 }
 
 .sr-only {
@@ -811,8 +813,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #FF8C00;
+    border-color: black;
     color: #FFFFFF!important;
     border-radius: 25px;
+    box-shadow: 5px 7px 13px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 7px 13px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 7px 13px -7px rgba(0,0,0,0.75);
 }
 
 
@@ -821,6 +827,8 @@ h4 {
     transition: all 1s;
     color: #FFFFFF!important;
     cursor: pointer;
+    transform:scale(1.1);
+    transition: all 0.6s ease-in-out
 }
 
 .ltc-white {
@@ -945,7 +953,6 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
     .navbar.row {
@@ -960,11 +967,11 @@ h4 {
     }
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
@@ -1123,6 +1130,10 @@ margin-left: 44px;
 .footer-ctn {
     display: flex;
     justify-content: center;
+}
+
+.btn-contact {
+    width: 135px;
 }
 
 @media (max-width: 400px) {
