@@ -1168,6 +1168,14 @@ margin-left: 44px;
     width: 135px;
 }
 
+
+.p-p span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFA500;
+}
+
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
