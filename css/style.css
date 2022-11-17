@@ -415,6 +415,8 @@ a:hover {
         float: none;
         display: inline-block;
     }
+
+
     .nav-center .site-navigation {
         position: relative;
         width: 100%;
@@ -1012,6 +1014,13 @@ h4 {
         float: none;
         width: 100%;
     }
+
+    .navbar-header {
+        float: none;
+        width: 100%;
+    }
+
+
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
@@ -1196,5 +1205,23 @@ margin-left: 44px;
     .bloc-4-img a {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-group {
+        margin-left: 20px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 330px;
+        margin-right: 0;
+    }
+
+    .navbar-brand {
+        width: 375px;
     }
 }
