@@ -1188,6 +1188,15 @@ margin-left: 44px;
     font-size: 20px;
 }
 
+.site-navigation li:hover{
+    background: none;
+}
+
+.menu-li:hover {
+    transform: scale(1.2);    
+    transition: all .8s;
+}
+
 
 
 @media (max-width: 400px) {
@@ -1233,5 +1242,7 @@ margin-left: 44px;
 
     .navbar-brand {
         width: 375px;
+        display: flex;
+        justify-content: center;
     }
 }
