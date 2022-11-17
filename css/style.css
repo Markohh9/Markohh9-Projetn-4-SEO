@@ -818,7 +818,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #FF8C00;
     border-color: black;
-    color: #FFFFFF!important;
+    color: black!important;
     border-radius: 25px;
     box-shadow: 5px 7px 13px -7px rgba(0,0,0,0.75);
 -webkit-box-shadow: 5px 7px 13px -7px rgba(0,0,0,0.75);
